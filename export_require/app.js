@@ -6,6 +6,5 @@ function sum(a,b){
 }
 const sub = (a,b)=>a-b
 
-module.exports.PI = PI
-module.exports.sum = sum
-module.exports.sub = sub
+//exports =  { sub, sum, PI }
+module.exports =  { sub, sum, PI }

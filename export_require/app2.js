@@ -1,3 +1,4 @@
-let mylib = require('./app.js')
+//const  { sub, sum, PI } = require('./app.js')
+import { sub, sum, PI } from './app.js'
 
-console.log(mylib.sub(mylib.sum(3,4),mylib.PI))
+console.log(sub(sum(3,4),PI))
